@@ -65,7 +65,11 @@
 
   <!-- OmniJaws -->
   <string name="weather_config_title">Impostazioni meteo</string>
-  	
+  <string name="weather_config_summary"></string>
+  <string name="header_weather_title">Visualizza meteo sull\'intestazione</string>
+  <string name="header_weather_summary">Abilita la visualizzazione del meteo sull\'intestazione del pannello delle notifiche</string>
+  <string name="weather_icon_pack_title">Pacchetto icone meteo</string>
+	
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Cursore luminosità</string>
   <string name="qs_brightness_slider_summary">Mostra un cursore di luminosità nel pannello delle impostazioni rapide</string>
@@ -93,6 +97,9 @@
   <!-- Lockscreen UI -->
   <string name="lockscreen_ui_title">Schermata di blocco</string>
 
+  <!-- Lockscreen Shortcuts -->
+  <string name="lockscreen_shortcuts">Scorciatoie schermata di blocco</string>
+	
   <!-- Buttons -->
   <string name="buttons_title">Pulsanti</string>
 
@@ -231,6 +238,8 @@
   <string name="color_default">Predefinito</string>
 
   <!-- Navigation Bar -->
+  <string name="navbar_tint_switch">Tinta del pulsante di navigazione</string>
+  <string name="navbar_button_color">Pulsanti della barra di navigazione</string>
   <string name="navbar_interface_title">Interfaccia</string>
   <string name="navbar_size">Dimensioni Barra</string>
   <string name="navbar_mode">Modalità navigazione</string>
@@ -243,6 +252,7 @@
   <string name="info_pref_note_title">Note</string>
   <string name="smartbar_interface">SmartBar</string>
   <string name="icon_pack_picker_dialog_title">Pacchetti icone</string>
+  <string name="image_exceeds_max_allowed_size">L\'immagine non deve superare 512x512</string>
   <string name="invalid_icon_from_uri">Impossibile caricare l\'immagine dal provider dei contenuti</string>
   <string name="picker_activities">Attività</string>
   <string name="select_custom_app_title">Seleziona un\'app personalizzata</string>
@@ -252,7 +262,7 @@
   <string name="reset">Ripristina</string>
 
   <!-- Actions dialog and default task values set in ActionPreference xml-->
-  <string name="choose_action_title">Scegli azione</string>
+  <string name="choose_action_title">Scegli un\'azione</string>
   <string name="action_entry_default_action">Impostazioni predefinite</string>
   <string name="action_entry_select_app">Seleziona un\'applicazione</string>
   <string name="action_entry_custom_action">Seleziona un\'azione</string>
@@ -386,12 +396,12 @@
   <string name="navbar_buttons_alpha_title">Trasparenza pulsante</string>
 
   <!-- QuickSettings haptic feedback -->
-  <string name="quick_settings_vibrate_title">Vibrazione al tocco</string>
+  <string name="quick_settings_vibrate_title">Vibra al tocco</string>
   <string name="quick_settings_vibrate_summary">Vibra quando i tile vengono toccati</string>
 
   <!-- Do not disturb switch in volume panel -->
   <string name="tuner_full_zen_title">Interruttore non disturbare</string>
-  <string name="tuner_full_zen_summary">Mostra un interruttore non disturbare nel pannello del volume</string>
+  <string name="tuner_full_zen_summary">Visualizza l\'interruttore non disturbare nel pannello del volume</string>
 
   <!-- Breathing Notifications -->
   <string name="breathing_notifications_title">Notifiche lampeggianti</string>
@@ -450,17 +460,6 @@
   <string name="weather_show_weather_summary">Abilita per la visualizzazione delle informazioni meteo</string>
   <string name="weather_show_location_title">Mostra posizione</string>
   <string name="weather_show_location_summary">Abilita per la visualizzazione della posizione</string>
-  <string name="weather_show_timestamp_title">Mostra aggiornamento</string>
-  <string name="weather_show_timestamp_summary">Abilita per la visualizzazione della data e ora</string>
-  <string name="weather_condition_icon_title">Icona condizioni</string>
-  <string name="weather_condition_icon_dlg_title">Scegli un\'icona per la visualizzazione delle condizioni meteo</string>
-  <string name="weather_condition_icon_monochrome_title">Monocromatiche</string>
-  <string name="weather_condition_icon_colored_title">Colorate</string>
-  <string name="weather_condition_icon_vclouds_title">VClouds</string>
-  <string name="icons_title">Icone</string>
-  <string name="position_right_title">Destra</string>
-  <string name="position_centered_title">Centrato</string>
-  <string name="hidden_title">Nascosta</string>
   <string name="weather_hide_panel_title">Nascondi pannello meteo</string>
   <string name="weather_hide_panel_dlg_title">Scegliere quando il pannello Meteo dovrebbe essere nascosto</string>
   <string name="weather_hide_panel_auto_title">Automatico</string>
@@ -470,17 +469,10 @@
   <string name="weather_hide_panel_custom_summary">Il pannello meteo sarà nascosto quando le notifiche visibili raggiungeranno il numero di notifiche scelto</string>
   <string name="weather_hide_panel_never_summary">Il pannello meteo non sarà nascosto</string>
   <string name="weather_number_of_notifications_title">Numero di notifiche</string>
-
-  <!-- Lock clock -->
-  <string name="lock_clock_title">Widget orologio</string>
-  <string name="lock_clock_summary">Visualizza o modifica la modalità di visualizzazione del widget cLock</string>
-  <string name="lock_clock_clock_section_title">Orologio e sveglia</string>
-  <string name="lock_clock_clock_section_summary">Visualizza o modifica la modalità di visualizzazione del widget orologio e sveglia</string>
-  <string name="lock_clock_weather_section_title">Pannello meteo</string>
-  <string name="lock_clock_weather_section_summary">Visualizza o modifica la modalità di visualizzazione del widget meteo</string>
-  <string name="lock_clock_calendar_section_title">Calendario eventi</string>
-  <string name="lock_clock_calendar_section_summary">Visualizza o modifica la modalità di visualizzazione del widget calendario eventi</string>
-
+  <string name="weather_config_title">Impostazioni del servizio</string>
+  <string name="weather_icon_pack_title">Pacchetto icone condizioni</string>
+  <string name="lock_clock_title">Servizio meteo</string>
+	
   <!-- statusbar brightness control -->
   <string name="status_bar_toggle_brightness">Controllo della luminosità</string>
   <string name="status_bar_toggle_brightness_summary">Regola la luminosità facendo scorrere il dito sulla barra di stato</string>
@@ -549,12 +541,14 @@
   <string name="nav_bar_dynamic_summary">Attiva o disattiva questo pulsante per adattare la barra di navigazione al colore scuro primario delle applicazioni. Riavvia l\'applicazione desiderata per vedere l\'effetto</string>
 
   <!-- Heads up settings -->
-  <string name="headsup_category">Impostazioni Heads Up</string>
-  <string name="headsup_settings_title">Notifiche Heads up</string>
-  <string name="summary_heads_up_enabled">Le notifiche Heads up sono abilitate</string>
-  <string name="summary_heads_up_disabled">Le notifiche Heads up sono disabilitate</string>
-  <string name="heads_up_disabled_notice">Per consentire alle applicazioni di visualizzare le notifiche interattive in una finestra pop-up sullo schermo, abilita Heads up.</string>
-
+  <string name="headsup_category">Impostazioni heads up</string>
+  <string name="headsup_settings_title">Notifiche heads up</string>
+  <string name="summary_heads_up_enabled">Le notifiche heads up sono abilitate</string>
+  <string name="summary_heads_up_disabled">Le notifiche heads up sono disabilitate</string>
+  <string name="heads_up_disabled_notice">Per consentire alle applicazioni di visualizzare le notifiche interattive in una finestra pop-up sullo schermo, abilita heads up.</string>
+  <string name="always_headsup_dialer_title">Forza heads up per il dialer</string>
+  <string name="always_headsup_dialer_summary">Mostra le notifiche heads up per il dialer anche se sono spente questo per evitare che il dialer funzioni a schermo intero sulle chiamate in arrivo</string>
+	
   <!-- Heads up timeout -->
   <string name="heads_up_time_out_title">Tempo di visualizzazione</string>
   <string name="heads_up_time_out_summary">Le notifiche saranno mostrate per <xliff:g id="number">%d</xliff:g> secondi</string>
@@ -637,7 +631,7 @@
   
   <!-- Buttons backlight timeout -->
   <string name="backlight_timeout_title">Tempo di illuminazione pulsanti</string>
-  <string name="backlight_timeout_on">Abilitato sempre</string>
+  <string name="backlight_timeout_on">Abilita sempre</string>
   <string name="backlight_timeout_default">5 secondi (predefinito)</string>
   <string name="backlight_timeout_10s">10 secondi</string>
   <string name="backlight_timeout_15s">15 secondi</string>
@@ -657,7 +651,7 @@
   <string name="show_carrier_disabled">Disabilitato</string>
   <string name="show_carrier_keyguard">Solo schermata di blocco</string>
   <string name="show_carrier_statusbar">Solo barra di stato</string>
-  <string name="show_carrier_enabled">Schermata di blocco &amp; Barra di Stato</string>
+  <string name="show_carrier_enabled">Schermata di blocco e barra di stato</string>
   <string name="status_bar_carrier_color">Colore etichetta operatore</string>
   <string name="status_bar_carrier_size">Dimensione testo etichetta operatore</string>
 
@@ -675,13 +669,13 @@
   <string name="status_bar_battery_percentage_default">Nascosta</string>
   <string name="status_bar_battery_percentage_text_inside">All\'interno dell\'icona</string>
   <string name="status_bar_battery_percentage_text_next">Accanto all\'icona</string>
-  <string name="status_bar_battery_style_tile_title">Stile tile batteria personalizzato</string>
+  <string name="battery_tile_style_title">Stile del tile batteria</string>
   <string name="status_bar_battery_style_tile_summary">Permette di impostare lo stesso stile di icona della batteria scelta per la barra di stato</string>
   <string name="status_bar_charge_color_title">Colore dell\'icona della batteria in carica</string>
   <string name="force_charge_battery_text_title">Percentuale di carica della batteria</string>
   <string name="force_charge_battery_text_summary_on">Visualizza la percentuale della batteria fuori l\'icona durante la carica</string>
   <string name="force_charge_battery_text_summary_off">Visualizza la percentuale di carica della batteria all\'interno dell\'icona durante la ricarica</string>
-  <string name="text_charging_symbol_title">Simbolo della ricarica accanto al testo della percentuale</string>
+  <string name="text_charging_symbol_title">Simbolo di ricarica accanto al testo percentuale</string>
   <string name="text_charging_symbol_dialog">Visualizza un simbolo accanto al testo della percentuale della batteria fuori l\'icona durante la carica</string>
   <string name="text_charging_symbol_default">Disattivato</string>
   <string name="text_charging_symbol_flash">Fulmine</string>
@@ -717,7 +711,7 @@
   <string name="blurred_status_bar_expanded_enabled_pref">Sfocatura sfondo barra di stato</string>
   <string name="blurred_status_bar_expanded_enabled_pref_summary">Sfoca lo sfondo della barra di stato quando si tira giù</string>
   <string name="translucent_notifications_pref">Notifiche sfocate</string>
-  <string name="translucent_notifications_pref_summary">Imposta lo sfondo delle notifiche sfocato</string>
+  <string name="translucent_notifications_pref_summary">Imposta lo sfondo delle notifiche sfocate</string>
   <string name="translucent_quick_settings_pref">Sfocatura barra di stato espansa</string>
   <string name="translucent_quick_settings_pref_summary">Rendi sfocato lo sfondo delle impostazioni rapide</string>
   <string name="transluency_level_universal">Livello di sfocatura</string>
@@ -731,7 +725,7 @@
   <string name="blur_notice">Info sulla funzione di sfocatura</string>
   <string name="blur_notice_summary">Le personalizzazioni di sfocatura sono disabilitate quando viene visualizzata la tastiera! Solo la sfocatura delle notifiche sono abilitate!</string>
   <string name="blur_colors_notice">Cosa fanno questi colori?</string>
-  <string name="blur_colors_notice_summary">Questi colori sono la tinta dei colori di sfondo della sfocatura. Anziché il normale grigio, è ora possibile scegliere il colore che più preferisci. \n Ci sono 3 filtri colore: Uno usato per sfondi chiari, uno usato per sfondi scuri e uno usato per sfondi misti. \n Ma come lavorano questi colori? \n Semplice, come il titolo dice, il filtro chiaro viene usato sugli sfondi più chiari, il filtro scuro viene usato sugli sfondi più scuri e il filtro misto viene usato nelle situazioni in cui lo sfondo non è ne troppo chiaro e ne troppo scuro. \n Questi colori sono usati sia nella barra di stato che nel pannello delle applicazioni recenti </string>
+  <string name="blur_colors_notice_summary">Questi colori sono la tinta dei colori di sfondo della sfocatura. Anziché il normale grigio, è ora possibile scegliere il colore che più preferisci.\nCi sono 3 filtri colore: Uno usato per sfondi chiari, uno usato per sfondi scuri e uno usato per sfondi misti.\nMa come lavorano questi colori?\nSemplice, come il titolo dice, il filtro chiaro viene usato sugli sfondi più chiari, il filtro scuro viene usato sugli sfondi più scuri e il filtro misto viene usato nelle situazioni in cui lo sfondo non è ne troppo chiaro e ne troppo scuro.\nQuesti colori sono usati sia nella barra di stato che nel pannello delle applicazioni recenti </string>
 
   <string name="blur_expstatus_cat">Barra di stato estesa </string>
   <string name="blur_notifications_cat">Notifiche</string>
@@ -816,7 +810,7 @@
   <string name="disable_animations_summary">Disabilita le animazioni di transizione come ad esempio quando lanci un\'app</string>
   
   <!-- Alarm blocker -->
-  <string name="alarm_blocker">Blocco degli allarm</string>
+  <string name="alarm_blocker">Blocco degli allarmi</string>
   <string name="alarm_blocker_title">Abilita</string>
   <string name="alarm_blocker_summary">Blocca gli allarmi mentre lo schermo è spento</string>
   <string name="alarm_blocker_save">Salva</string>
@@ -826,8 +820,8 @@
   <string name="alarm_blocker_warning">Il blocco allarmi hanno il potenziale di causare instabilità, crash o perdita di dati.</string>
 	
   <!-- Option to enable/disable scrolling cache -->
-  <string name="pref_scrollingcache_title">Scrolling cache</string>
-  <string name="pref_scrollingcache_summary">Scrolling cache può migliorare le prestazioni dello scorrimento a discapito della memoria</string>
+  <string name="pref_scrollingcache_title">Scorrimento cache</string>
+  <string name="pref_scrollingcache_summary">Lo scorrimento della cache può migliorare le prestazioni a discapito della memoria</string>
   <string name="pref_scrollingcache_force_enable">Forza abilitazione</string>
   <string name="pref_scrollingcache_default_enable">Abilitato predefinito</string>
   <string name="pref_scrollingcache_default_disable">Disabilitato predefinito</string>
@@ -846,7 +840,7 @@
   <string name="qs_settings_icon_summary">Disabilita la scorciatoia delle impostazioni nell\'intestazione</string>
   <string name="qs_running_services_title">Icona servizi in esecuzione</string>
   <string name="qs_running_services_summary">Disabilita l\'icona servizi in esecuzione nell\'intestazione</string>
-  <string name="qs_edit_title">Modifica icona</string>
+  <string name="qs_edit_title">Icona di modifica</string>
   <string name="qs_edit_summary">Disabilita l\'icona di modifica dei tile nell\'intestazione</string>
   <string name="qs_multiuser_switch_title">Icona cambio utente</string>
   <string name="qs_multiuser_switch_summary">Disabilita l\'icona cambio utente nell\'intestazione</string>
@@ -868,9 +862,9 @@
     <string name="battery_bar_style_title">Allineamento barra batteria</string>
     <string name="battery_bar_thickness_title">Spessore barra batteria</string>
     <string name="battery_bar_animate_title">Animazione di ricarica</string>
-    <string name="battery_bar_style_regular">Regolare</string>
+    <string name="battery_bar_style_regular">Lato sinistro</string>
     <string name="battery_bar_style_center_mirrored">Centrata e specchiata</string>
-    <string name="battery_bar_style_reversed">Invertita</string>
+    <string name="battery_bar_style_reversed">Lato destro</string>
     <string name="battery_bar_use_charging_color">Colore di ricarica personalizzato</string>
     <string name="battery_bar_blend_color_title">Mescola i colori</string>
     <string name="battery_bar_blend_color_summary">Mescola i colori pieni/vuoti corrispondenti alla percentuale della batteria</string>
@@ -891,7 +885,7 @@
     <string name="status_bar_custom_header_shadow_summary">Per una migliore visibilità su immagini luminose</string>
     <string name="static_header_provider_title">Statico</string>
     <string name="daylight_header_provider_title">Dinamico</string>
-    <string name="custom_header_provider_title">Scelta intestazione</string>
+    <string name="custom_header_provider_title">Tipo intestazione</string>
     <string name="custom_header_browse_title">Sfoglia intestazioni installate</string>
     <string name="custom_header_browse_summary">Premi a lungo su qualsiasi immagine da utilizzare per la modalità statica</string>
 
@@ -905,7 +899,7 @@
     <string name="screen_state_toggles_summary">@null</string>
     <string name="screen_state_toggles_title">Sospendi le azioni</string>
     <string name="screen_state_toggles_enable_title">Abilita</string>
-    <string name="screen_state_toggles_enable_summary">Le azioni saranno eseguite su schermo spento. Nella schermata dello stato precedente verrà ripristinato.</string>
+    <string name="screen_state_toggles_enable_summary">Le azioni saranno eseguite a schermo spento. Verrà ripristinato alla schermata dello stato precedente.</string>
     <string name="screen_state_toggles_mobile_title">Reti mobili</string>
     <string name="screen_state_toggles_location_title">Posizione</string>
     <string name="screen_state_toggles_twog">Cambia in 2G</string>
@@ -921,12 +915,17 @@
 	
     <string name="qs_tile_title_visibility_title">Titoli tile</string>
     <string name="qs_tile_title_visibility_summary_on">Titoli tile visibili</string>
-    <string name="qs_tile_title_visibility_summary_off">Titoli tile invisibili</string>
+    <string name="qs_tile_title_visibility_summary_off">Titoli tile nascosti</string>
 	
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Sblocco FP</string>
     <string name="fp_unlock_keystore_summary">Sblocca il dispositivo con l\'impronta digitale dopo il riavvio senza PIN/Password/Sequenza\ Nota: a proprio rischio!</string>
 
+    <!-- Status bar notification ticker -->
+    <string name="ticker_disabled">Nessun ticker</string>
+    <string name="ticker_enabled">Ticker di notifica</string>
+    <string name="ticker_media_enabled">Ticker di notifiche e musica</string>
+	
     <!-- Wired headset ringtone audio focus -->
     <string name="wired_ringtone_focus_mode_title">Dove riprodurre la musica</string>
     <string name="wired_ringtone_focus_mode_dynamic">Se collegato un auricolare con cavo riproduci la musica</string>
@@ -934,14 +933,14 @@
 	
     <!-- QS Easy Toggle -->
     <string name="qs_easy_toggle_title">Toggle avanzati impostazioni rapide</string>
-    <string name="qs_easy_toggle_summary">Attiva un\'azione al tocco per attivare/disattivare i dati mobile, wifi, posizione e bluetooth</string>
+    <string name="qs_easy_toggle_summary">Attiva un\'azione al tocco per abilitare/disabilitare i dati mobile, wifi, posizione e bluetooth</string>
 
     <string name="dnd_when_call_title">Non disturbare</string>
-    <string name="dnd_when_call_summary">Attiva Non disturbare quando una chiamata è attiva</string>
+    <string name="dnd_when_call_summary">Attiva non disturbare quando una chiamata è attiva</string>
 
     <!-- StatusBar weather settings -->
     <string name="statusbar_weather_title">Meteo barra di stato</string>
-    <string name="statusbar_weather_summary">Configura dalle impostazioni delle impostazioni rapide/Meteo.</string>
+    <string name="statusbar_weather_summary">Configura lo stile del meteo che verrà visualizzato nella barra di stato.</string>
     <string name="statusbar_weather_dialog_title">Stile meteo barra di stato</string>
     <string name="status_bar_weather_hidden">Nascondi meteo</string>
     <string name="status_bar_temperature_image_show_scale">Mostra temperatura con scala e immagine</string>
@@ -952,12 +951,12 @@
 
     <!-- Slim Recent panel -->
     <string name="slim_recents_title">Recenti slim</string>
-    <string name="use_slim_recents_title">Usa recenti slim</string>
-    <string name="use_slim_recents_summary">Utilizza recenti slim anziché la visualizzazione predefinita</string>
+    <string name="use_slim_recents_title">Usa i recenti slim</string>
+    <string name="use_slim_recents_summary">Utilizza i recenti slim anziché la visualizzazione predefinita</string>
     <string name="slim_recents_settings_title">Impostazioni recenti slim</string>
-    <string name="slim_recents_settings_summary">Visualizza le impostazioni per recenti slim</string>
+    <string name="slim_recents_settings_summary">Visualizza le impostazioni per i recenti slim</string>
     <string name="recent_panel_category">Pannello app recenti slim</string>
-    <string name="show_running_tasks_title">Mostra solo le applicazioni in esecuzione</string>
+    <string name="show_running_tasks_title">Mostra solo app in esecuzione</string>
     <string name="recents_max_apps_title">Applicazioni massime consentite</string>
     <string name="recent_panel_scale_title">Dimensione</string>
     <string name="recent_panel_expanded_mode_title">Modalità espansa</string>
@@ -973,9 +972,9 @@
     <string name="recent_reset_confirm">Sei sicuro di voler ripristinare il colore predefinito dei recenti Slim?</string>
     <string name="default_auto_string">Predefinito (basato app)</string>
     <string name="slim_icon_pack_title">Pacchetto icone</string>
-    <string name="slim_icon_pack_summary">Applicare un paccehtto icone personalizzato per le applicazioni del pannello</string>
+    <string name="slim_icon_pack_summary">Applica un paccehtto icone personalizzato per le applicazioni del pannello</string>
     <string name="no_iconpacks_summary">Nessun pacchetto icone installato</string>
-    <string name="dialog_pick_iconpack_title">Scegli paccehtto icone</string>
+    <string name="dialog_pick_iconpack_title">Scegli pacchetto icone</string>
     <string name="default_iconpack_title">Icone predefinite</string>
 
     <!-- ATTENTION: RTL languages need to replace left with right -->
@@ -983,14 +982,187 @@
     <string name="recent_panel_lefty_mode_summary">Mostra il pannello delle applicazioni recenti sul bordo sinistro</string>
 
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Mostra indicatore roaming</string>
-    <string name="roaming_indicator_icon_summary">Mostra sul display l\'indicatore roaming sull\'icona del segnale quando si è in modalità roaming</string>
+    <string name="roaming_indicator_icon_title">Visualizza indicatore roaming</string>
+    <string name="roaming_indicator_icon_summary">Visualizza l\'indicatore di roaming nell\'icona del segnale quando si è in modalità roaming</string>
 
     <string name="screenshot_crop_and_share_title">Prendi uno Screenshot &amp; condividi</string>
-    <string name="screenshot_crop_and_share_summary">Mostra una finestra delle modifiche dopo aver catturato uno screenshot per fare alcune operazioni come il ritaglio, salva o condividi</string>
+    <string name="screenshot_crop_and_share_summary">Visualizza una finestra di modifica dopo aver catturato uno screenshot per fare alcune operazioni come ritagliare, salvare o condividere</string>
 
     <!-- Bluetooth status -->
-    <string name="bluetooth_battery_title">Mostra lo stato della batteria Bluetooth</string>
-    <string name="bluetooth_battery_summary">Mostra lo stato della batteria del dispositivo Bluetooth attualmente collegato, se disponibile.</string>
+    <string name="bluetooth_battery_title">Visualizza lo stato della batteria Bluetooth</string>
+    <string name="bluetooth_battery_summary">Visualizza lo stato della batteria del dispositivo Bluetooth attualmente collegato, se disponibile.</string>
+	
+    <!-- Keyguard Statusbar Clock -->
+    <string name="keyguard_statusbar_clock_title">Orologio barra di stato della schermata di blocco</string>
+    <string name="keyguard_statusbar_clock_summary">Visualizza l\'orologio nella barra di stato della schermata di blocco sul lato sinistro</string>
+
+    <!-- Aosp cards and grid recents -->
+    <string name="recents_type_title">Stile recenti</string>
+    <string name="recents_stock">Carte</string>
+    <string name="recents_grid">Griglia</string>
+
+  <!-- Slim DSLV -->
+  <string name="shortcut_action_none">Nessuna</string>
+  <string name="shortcut_action_longpress">Pressione prolungata:</string>
+  <string name="shortcut_action_select_action_longpress">Scegli azione pressione prolungata:</string>
+  <string name="shortcut_action_select_action">Scegli azione:</string>
+  <string name="shortcut_action_select_action_newaction">Scegli nuova azione:</string>
+  <string name="shortcut_action_reset">Ripristina</string>
+  <string name="shortcut_action_add">Aggiungi</string>
+  <string name="shortcut_action_reset_message">Ripristinare tutti i valori a quelli predefiniti?</string>
+  <string name="shortcut_action_max">La dimensione del numero massimo di voci è stata raggiunta</string>
+  <string name="shortcut_action_warning">Attenzione</string>
+  <string name="shortcut_action_warning_message">Non è possibile eliminare l\'ultima voce</string>
+  <string name="shortcut_action_disable_message">Disattiva\nAggiungi una voce per abilitare questa funzione</string>
+  <string name="shortcut_image_not_valid">L\'applicazione scelta non restituisce un\'icona valida o non supporta il ritaglio immagine. Usa un\'altra applicazione.</string>
+  <string name="shortcut_duplicate_entry">L\'azione scelta non può essere aggiunta due volte</string>
+  <string name="shortcut_action_help_shortcut">scorciatoia</string>
+  <string name="shortcut_action_help_button">pulsante</string>
+  <string name="shortcut_action_help_app">app</string>
+  <string name="shortcut_action_help_icon">, mentre selezioni l\'icona, si apriranno le opzioni di personalizzazione</string>
+
+  <string name="shortcut_action_help_main">Per aggiungere una %1$s, seleziona l\'icona Aggiungi. Una volta che una %1$s è stata aggiunta, selezionando la riga cambierà l\'obiettivo %2$s.\n\nPer rimuovere una %1$s, trascina orizzontalmente la riga verso destra o sinistra. Per riordinare una %1$s presente nella lista, trascina verticalmente il pulsante posto a sinistra.\n\nPer cancellare o reimpostare le impostazioni predefinite, seleziona l\'icona Reimposta.</string>
+  <string name="shortcut_action_help_delete_last_entry">Rimuovere ogni %1$s nell\'elenco disabiliterà completamente la funzione.</string>
+  <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Rimuovere ogni %1$s nell\'elenco disabiliterà il secondo stato del Pie.</string>
+
+  <string name="shortcuts_applications">Applicazioni</string>
+  <string name="shortcuts_select_custom_app_title">Seleziona applicazione personalizzata</string>
+  <string name="shortcuts_icon_picker_type">Seleziona tipo di icona:</string>
+  <string name="shortcuts_icon_default">Predefinita</string>
+  <string name="shortcuts_icon_presets">Icone di sistema</string>
+  <string name="shortcuts_icon_custom">Galleria</string>
+  <string name="shortcuts_icon_picker_choose_icon_title">Scegli icona</string>
+
+  <string name="shortcuts_icon_picker_alarm">Sveglia</string>
+  <string name="shortcuts_icon_picker_andy">Andy</string>
+  <string name="shortcuts_icon_picker_battery">Batteria</string>
+  <string name="shortcuts_icon_picker_browser">Browser</string>
+  <string name="shortcuts_icon_picker_calendar">Calendario</string>
+  <string name="shortcuts_icon_picker_camera">Fotocamera</string>
+  <string name="shortcuts_icon_picker_cloud">Cloud</string>
+  <string name="shortcuts_icon_picker_contact">Contatto</string>
+  <string name="shortcuts_icon_picker_directdial">Chiamata diretta</string>
+  <string name="shortcuts_icon_picker_directmessage">Messaggio diretto</string>
+  <string name="shortcuts_icon_picker_drive">Drive</string>
+  <string name="shortcuts_icon_picker_dropbox">Dropbox</string>
+  <string name="shortcuts_icon_picker_email">Email</string>
+  <string name="shortcuts_icon_picker_email2">E-mail alternativa</string>
+  <string name="shortcuts_icon_picker_evernote">Evernote</string>
+  <string name="shortcuts_icon_picker_facebook">Facebook</string>
+  <string name="shortcuts_icon_picker_favorite">Preferito</string>
+  <string name="shortcuts_icon_picker_file_browser">File Browser</string>
+  <string name="shortcuts_icon_picker_file_browser2">File Browser alternativo</string>
+  <string name="shortcuts_icon_picker_fitness">Fitness</string>
+  <string name="shortcuts_icon_picker_gallery">Galleria</string>
+  <string name="shortcuts_icon_picker_gears">Gears</string>
+  <string name="shortcuts_icon_picker_google_small">Google</string>
+  <string name="shortcuts_icon_picker_gplus">Google Plus</string>
+  <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
+  <string name="shortcuts_icon_picker_help">Aiuto</string>
+  <string name="shortcuts_icon_picker_joystick">Joystick</string>
+  <string name="shortcuts_icon_picker_key">Password/Account</string>
+  <string name="shortcuts_icon_picker_laptop">Portatile</string>
+  <string name="shortcuts_icon_picker_notes">Note</string>
+  <string name="shortcuts_icon_picker_luggage">Viaggio</string>
+  <string name="shortcuts_icon_picker_maps">Maps</string>
+  <string name="shortcuts_icon_picker_market">Market</string>
+  <string name="shortcuts_icon_picker_movie">Film</string>
+  <string name="shortcuts_icon_picker_music">Musica</string>
+  <string name="shortcuts_icon_picker_nav">Navigazione</string>
+  <string name="shortcuts_icon_picker_phone">Telefono</string>
+  <string name="shortcuts_icon_picker_package">Pacchetto</string>
+  <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
+  <string name="shortcuts_icon_picker_play">Play</string>
+  <string name="shortcuts_icon_picker_pocket">Pocket</string>
+  <string name="shortcuts_icon_picker_quicksettings">Impostazioni Rapide</string>
+  <string name="shortcuts_icon_picker_rss">RSS Feed</string>
+  <string name="shortcuts_icon_picker_sdcard">Scheda SD</string>
+  <string name="shortcuts_icon_picker_search">Cerca</string>
+  <string name="shortcuts_icon_picker_sms">Messaggistica</string>
+  <string name="shortcuts_icon_picker_tasks">Attività</string>
+  <string name="shortcuts_icon_picker_terminal">Terminale</string>
+  <string name="shortcuts_icon_picker_transit">Transito</string>
+  <string name="shortcuts_icon_picker_tv">TV</string>
+  <string name="shortcuts_icon_picker_twitter">Twitter</string>
+  <string name="shortcuts_icon_picker_unlock">Sblocca</string>
+  <string name="empty_title">Vuoto</string>
+  <string name="normal_title">Normale</string>
+  <string name="hidden_title">Nascosto</string>
+  <string name="position_title">Posizione</string>
+  <string name="position_right_title">Destra</string>
+  <string name="position_centered_title">Centrato</string>
+  <string name="help">Aiuto</string>
+  <string name="reset_message">Ripristinare tutti i valori a quelli predefiniti?</string>
+  <string name="profiles_add">Aggiungi</string>
+  <string name="profile_choose_app">Scegli l\'applicazione</string>
+  <string name="profile_reset_title">Ripristina</string>
+  <string name="show_title">Mostra</string>
+  <string name="choose_app">Scegli l\'applicazione</string>
+
+  <!-- Lockscreen shortcuts -->
+  <string name="lockscreen_shortcuts_title">Scorciatoie superiori</string>
+  <string name="lockscreen_shortcuts_summary">Modifica le scorciatoie sotto l\'orologio della scheramata di blocco</string>
+  <string name="lockscreen_shorcuts_longpress_title">Pressione prolungata</string>
+  <string name="lockscreen_shorcuts_longpress_summary">Pressione prolungata per aprire le applicazioni dai collegamenti</string>
+  <string name="lockscreen_shortcuts_category">Scorciatoie</string>
+  <string name="shortcut_action_none">Nessuna</string>
+  <string name="shortcut_action_app">App personalizzata</string>
+  <string name="shortcut_action_home">Home</string>
+  <string name="shortcut_action_back">Indietro</string>
+  <string name="shortcut_action_menu">Menu</string>
+  <string name="shortcut_action_ime">Apri selettore IME</string>
+  <string name="shortcut_action_power_menu">Menu tasto accensione</string>
+  <string name="shortcut_action_recent">Recenti</string>
+  <string name="shortcut_action_power">Spegni schermo</string>
+  <string name="shortcut_action_search">Cerca nelle app</string>
+  <string name="shortcut_action_ring_vib">Suon/Vib</string>
+  <string name="shortcut_action_ring_silent">Suoneria/Silenzioso</string>
+  <string name="shortcut_action_ring_vib_silent">Suoneria/Vibrazione/Silenzioso</string>
+  <string name="shortcut_action_camera">Fotocamera</string>
+  <string name="shortcut_action_media_next">Musica - traccia successiva</string>
+  <string name="shortcut_action_media_play_pause">Musica - riproduci/pausa</string>
+  <string name="shortcut_action_media_previous">Musica - traccia precedente</string>
+  <string name="shortcut_action_wake_device">Risveglia dispositivo</string>
+
+  <string name="shortcut_action_longpress">Pressione prolungata:</string>
+  <string name="shortcut_action_select_action_longpress">Scegli azione pressione prolungata:</string>
+  <string name="shortcut_action_select_action">Scegli azione:</string>
+  <string name="shortcut_action_select_action_newaction">Scegli nuova azione:</string>
+  <string name="shortcut_action_reset">Ripristina</string>
+  <string name="shortcut_action_add">Aggiungi</string>
+  <string name="shortcut_action_reset_message">Ripristinare tutti i valori a quelli predefiniti?</string>
+  <string name="shortcut_action_max">La dimensione del numero massimo di voci è stata raggiunta</string>
+  <string name="shortcut_action_warning">Attenzione</string>
+  <string name="shortcut_action_warning_message">Non è possibile eliminare l\'ultima voce</string>
+  <string name="shortcut_action_disable_message">Disabilitato\nAggiungi una voce per abilitare questa funzionalità</string>
+  <string name="shortcut_image_not_valid">L\'applicazione scelta non restituisce un\'icona valida o non supporta il ritaglio immagine. Usa un\'altra applicazione.</string>
+  <string name="shortcut_duplicate_entry">L\'azione scelta non può essere aggiunta due volte</string>
+  <string name="shortcut_action_help_shortcut">scorciatoia</string>
+  <string name="shortcut_action_help_button">pulsante</string>
+  <string name="shortcut_action_help_app">applicazione</string>
+  <string name="shortcut_action_help_icon">, mentre selezioni l\'icona, si apriranno le opzioni di personalizzazione</string>
+  <string name="shortcut_action_help_main">Per aggiungere un %1$s, selezionare l\'icona aggiungi. Dopo che un %1$s è stato aggiunto, seleziona la riga per cambiare l\'obiettivo %2$s\n\nPer rimuovere un %1$s, trascina orizzontalmente la riga. Riordina un %1$s nella lista trascinando verticalmente il punto di ancoraggio a sinistra.\n\nPer ripulire o resettare come predefinito, seleziona l\'icona di ripristino.</string>
+  <string name="shortcut_action_help_delete_last_entry">Rimuovere ogni %1$s nell\'elenco disabiliterà completamente la funzione.</string>
+  <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Rimuovere ogni %1$s nell\'elenco disabiliterà il secondo stato del pie.</string>
+
+  <!-- SlimSizer  -->
+  <string name="listsystem">elenco</string>
+  <string name="sizer_title">Rimozione app</string>
+  <string name="caution">Attenzione!</string>
+  <string name="sizer_message_startup">Questo strumento consente di eliminare le applicazioni di sistema. Usalo con cautela e elimina solo le applicazioni che possono essere rimosse con sicurezza.</string>
+  <string name="cancel">Annulla</string>
+  <string name="sizer_message_delete">Sei sicuro di voler eliminare questa applicazione?</string>
+  <string name="btn_delete">Elimina le applicazioni selezionate ora!</string>
+  <string name="delete_progress_title">Eliminazione</string>
+  <string name="delete_progress">I file selezionati saranno eliminati...</string>
+  <string name="delete_success">Eliminata</string>
+  <string name="delete_fail">Impossibile da eliminare</string>
+  <string name="btn_profile">Profilo</string>
+  <string name="sizer_message_sdnowrite">Impossibile scrivere sulla scheda SD.</string>
+  <string name="sizer_message_sdnoread">Impossibile leggere la scheda SD.</string>
+  <string name="sizer_message_filesuccess">Profilo creato.</string>
+  <string name="sizer_message_filefail">Impossibile creare il profilo.</string>
+  <string name="sizer_message_noselect">Nessuna selezione.</string>
+  <string name="system_app_remover">Rimozione applicazioni di sistema</string>
 
 </resources>
